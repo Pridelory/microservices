@@ -1,1 +1,17 @@
-example.organization.property: "I AM THE DEFAULT ORGANIZATION SERVICE"
+
+example.property: "I AM IN THE DEFAULT"
+#spring.jpa.database: "POSTGRESQL"
+#spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "com.mysql.cj.jdbc.Driver"
+spring.datasource.url: "jdbc:mysql://localhost:3306/eagleEye"
+spring.datasource.username: "root"
+#spring.datasource.password: "{cipher}4788dfe1ccbe6485934aec2ffeddb06163ea3d616df5fd75be96aadd4df1da91"
+spring.datasource.password: "wangmeng"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL5Dialect"
+redis.server: "redis"
+redis.port: "6379"
+signing.key: "345345fsdfsf5345"
+
